@@ -1,4 +1,3 @@
 class Booking < ApplicationRecord
-  has_one :user
-  has_one :product
+  has_one :user, :product
 end
